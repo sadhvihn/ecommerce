@@ -1,0 +1,3190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+        <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+   
+</head>
+<body>
+    
+    <div class="site page-home" id="page">
+
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head">
+                    <div class="logo"><a href="/"><span class="circle">.Store</span></a></div>
+                    <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+            <div class="departments"></div>
+            <nav></nav>
+            <div class="thetop-nav"></div>
+        </div>
+        </aside>
+
+        <header>
+            <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <ul class="flexitem main-links">
+                                <l><a href="#">Blog</a></l>
+                                <l><a href="#">Featured Products</a></l>
+                                <l><a href="#">Wishlist</a></l>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem main-links">
+                                
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Order Tracking</a></li>
+                                    <li><a href="#">INR <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                    <ul>
+                                        <li class="current"><a href="#">INR</a></li>
+                                        <li><a href="#">USD</a></li>
+                                        <li><a href="#">EURO</a></li>
+                                        <li><a href="#">GBP</a></li>
+                                    </ul>
+                                    </li>
+                                    <li><a href="#">English <span class="icon-small"><i class="ri-arrow-down-s-line"></i></span></a>
+                                        <ul>
+                                            <li class="current"><a href="#">English</a></li>
+                                            <li><a href="#">German</a></li>
+                                            <li><a href="#">Spanish</a></li>
+                                            <li><a href="#">Hindi</a></li>
+                                        </ul></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header top  -->
+            <div class="header-nav">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
+                        <div class="left flexitem">
+                            <div class="logo"><a href="/"><span class="circle">.Store</span></a></div>
+                                <nav class="mobile-hide">
+                                    <ul class="flexitem second-links">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                        <li class="has-child"><a href="#">Women
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                    <div class="mega">
+                                        <div class="container">
+                                            <div class="wrapper">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Women's Clothing</h4>
+                                                        <ul>
+                                                            <li><a href="#">Dresses</a></li>
+                                                            <li><a href="#">Tops & Tees</a></li>
+                                                            <li><a href="#">Jackets & coats</a></li>
+                                                            <li><a href="#">Pants & capris</a></li>
+                                                            <li><a href="#">Sweaters</a></li>
+                                                            <li><a href="#">Costumes</a></li>
+                                                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                                            <li><a href="#">Pajamas & Robes</a></li>
+                                                            <li><a href="#">Shorts</a></li>
+                                                            <li><a href="#">Swimwear</a></li>
+                                                       
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Jewellery</h4>
+                                                        <ul>
+                                                            <li><a href="#">Accessories</a></li>
+                                                            <li><a href="#">bags & Purses</a></li>
+                                                            <li><a href="#">Necklaces</a></li>
+                                                            <li><a href="#">Rings</a></li>
+                                                            <li><a href="#">Earrings</a></li>
+                                                            <li><a href="#">Braclets</a></li>
+                                                            <li><a href="#">Body Jewellery</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Beauty</h4>
+                                                        <ul>
+                                                            <li><a href="#">Bath Accessories</a></li>
+                                                            <li><a href="#">Makeup & Cosmetics</a></li>
+                                                            <li><a href="#">Skin Care</a></li>
+                                                            <li><a href="#">Hair Care</a></li>
+                                                            <li><a href="#">Essential Oils</a></li>
+                                                            <li><a href="#">Fragrances</a></li>
+                                                            <li><a href="#">Soaps & Bath Bombs</a></li>
+                                                            <li><a href="#">Face Masks & Covering</a></li>
+                                                            <li><a href="#">Spa Kits & Gifts</a></li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4>Top Brands</h4>
+                                                        <ul class="women-brands">
+                                                            <li><a href="#">Nike</a></li>
+                                                            <li><a href="#">Louis Vuitton</a></li>
+                                                            <li><a href="#">Hermes</a></li>
+                                                            <li><a href="#">Gucci</a></li>
+                                                            <li><a href="#">Zalands</a></li>
+                                                            <li><a href="#">Tiffany & Co.</a></li>
+                                                            <li><a href="#">zara</a></li>
+                                                            <li><a href="#">H&M</a></li>
+                                                            <li><a href="#">Cartier</a></li>
+                                                            <li><a href="#">Chanel</a></li>
+                                                        </ul>
+                                                        <a href="#" class="view-all">View all brands <i class="ri-arrow-right-line"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol products">
+                                                    <div class="row">
+                                                        <div class="media">
+                                                            <div class="thumbnail object-cover"><a href="#"><img src="assets/products/apparel4.jpg" alt=""></a></div>
+                                                            <div class="text-content">
+                                                                <h4>Most Wanted!</h4>
+                                                                <a href="#" class="primary-button">Order Now!</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></li>
+                                        <li><a href="#">Men</a></li>
+                                        <li><a href="#">Sports
+                                            <div class="fly-item"><span>New!</span></div>
+                                        </a></li>
+                                    </ul>
+                                </nav>
+                            
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li class="mobile-hide"><a href="#"><div class="icon-large"><i class="ri-heart-line"></i></div>
+                                <div class="fly-item"><span class="item-number">0</span></div>
+                                </a></li>
+                                <li><a href="#" class="iscart">
+                                    <div class="icon-large">
+                                        <i class="ri-shopping-cart-line"></i>
+                                        <div class="fly-item"><span class="item-number">0</span></div>
+                                    </div>
+                                    <div class="icon-text"><div class="mini-text">
+                                        Total
+                                    </div><div class="cart-total">₹0.00</div></div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <div class="dpt-cat">
+                                <div class="dpt-head">
+                                    <div class="main-text">All Departments</div>
+                                    <div class="mini-text mobile-hide">Total 1059  Products</div>
+                                    <a href="" class="dpt-trigger mobile-hide">
+                                        <i class="ri-menu-3-line ri-xl"></i>
+                                        
+                                    </a>
+                                </div>
+                                <div class="dpt-menu">
+                                    <ul class="second-links">
+                                        <li class="has-child beauty">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-bear-smile-line"></i></div>
+                                                <h4>Beauty</h4>
+                                                <div class="icon-small">
+                                                    <div class="ri-arrow-right-s-line"></div>
+                                                </div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Makeup</a></li>
+                                                <li><a href="#">Skin Care</a></li>
+                                                <li><a href="#">Hair Care</a></li>
+                                                <li><a href="#">Fragrance</a></li>
+                                                <li><a href="#">Foot & Hand Care</a></li>
+                                                <li><a href="#">Tools & Accessories</a></li>
+                                                <li><a href="#">Shave & Hair Removal</a></li>
+                                                <li><a href="#">Personal Care</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child electronics">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-bluetooth-connect-line"></i></div>
+                                                <h4>Electronics</h4>
+                                                <div class="icon-small">
+                                                    <div class="ri-arrow-right-s-line"></div>
+                                                </div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Camera</a></li>
+                                                <li><a href="#">Cell Phones</a></li>
+                                                <li><a href="#">Computers</a></li>
+                                                <li><a href="#">GPS & Navigation</a></li>
+                                                <li><a href="#">HeadPhones</a></li>
+                                                <li><a href="#">Home Audio</a></li>
+                                                <li><a href="#">Television</a></li>
+                                                <li><a href="#">Video Projectors</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-child fashion">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-t-shirt-air-line"></i></div>
+                                                <h4>Women's Fashion</h4>
+                                                <div class="icon-small">
+                                                    <div class="ri-arrow-right-s-line"></div>
+                                                </div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Clothing</a></li>
+                                                <li><a href="#">Shoes</a></li>
+                                                <li><a href="#">Jewellery</a></li>
+                                                <li><a href="#">Watches</a></li>
+                                                <li><a href="#">Handbags</a></li>
+                                                <li><a href="#">Accessories</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-shirt-line"></i></div>
+                                                <h4>Men's Fashion</h4>
+                                                
+                                              
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-user-5-line"></i></div>
+                                                <h4>Girl's Fashion</h4>
+                                        
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-user-6-line"></i></div>
+                                                <h4>Boy's Fashion</h4>
+                                        
+                                             </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-heart-pulse-line"></i></div>
+                                                <h4>Health & Household</h4>
+                                            </a>
+                                        </li>
+                                        <li class="has-child homekit">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-home-8-line"></i></div>
+                                                <h4>Home & Kitchen</h4>
+                                                <div class="icon-small">
+                                                    <div class="ri-arrow-right-s-line"></div>
+                                                </div>
+                                            </a>
+                                             <div class="mega">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Kitchen & Dining</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Kitchen</a></li>
+                                                            <li><a href="#">Dining Room</a></li>
+                                                            <li><a href="#">Pantry</a></li>
+                                                            <li><a href="#">Great Room</a></li>
+                                                            <li><a href="#">Breakfast Nook</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Living</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Living Room</a></li>
+                                                            <li><a href="#">Family Room</a></li>
+                                                            <li><a href="#">Sunroom</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Bed & Bath</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Bathroom</a></li>
+                                                            <li><a href="#">Powder Room</a></li>
+                                                            <li><a href="#">Bedroom</a></li>
+                                                            <li><a href="#">Storage & Closet</a></li>
+                                                            <li><a href="#">Baby & Kids</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Utility</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Laundry</a></li>
+                                                            <li><a href="#">Garage</a></li>
+                                                            <li><a href="#">Mudroom</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Outdoor</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Landscape</a></li>
+                                                            <li><a href="#">Patio</a></li>
+                                                            <li><a href="#">Deck</a></li>
+                                                            <li><a href="#">Pool</a></li>
+                                                            <li><a href="#">Backyard</a></li>
+                                                            <li><a href="#">Porch</a></li>
+                                                            <li><a href="#">Exterior</a></li>
+                                                            <li><a href="#">Outdoor Kitchen</a></li>
+                                                            <li><a href="#">Front Yard</a></li>
+                                                            <li><a href="#">Driveway</a></li>
+                                                            <li><a href="#">Poolhouse</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                    
+                                                </div>
+                    
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-android-line"></i></div>
+                                                <h4>Pet Supplies</h4>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-basketball-line"></i></div>
+                                               <h4>Sports</h4>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-shield-star-line"></i></div>
+                                                <h4>Best Sellers</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="search-box">
+                                <form action="" class="search">
+                                <span class="icon-large"><i class="ri-search-line"></i></span>
+                                <input type="search" placeholder="Search for products">
+                                <button type="submit">Search</button>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <main>
+            <div class="slider">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="myslider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="item"><div class="image object-cover"><img src="assets/slider/slider0.jpg" alt=""></div> 
+                                    <div class="text-content flexcol">
+                                        <h4>Shoes Fashion</h4>
+                                        <h2><span>Come and Get it!</span><br><span>Brand New Shoes</span></h2>
+                                        <a href="#" class="primary-button">Shop Now!</a>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item"><div class="image object-cover"><img src="assets/slider/slider1.jpg" alt=""></div> 
+                                    <div class="text-content flexcol">
+                                        <h4>Quick Fashion</h4>
+                                        <h2><span>Fit your Wardrobe</span><br><span>WITH LUXURY ITEMS</span></h2>
+                                        <a href="#" class="primary-button">Shop Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="swiper-slide">
+                                    <div class="item"><div class="image object-cover"><img src="assets/slider/slider2.jpg" alt=""></div> 
+                                    <div class="text-content flexcol">
+                                        <h4>Quick Offer</h4>
+                                        <h2><span>Wooden Minimal Sofa</span><br><span>EXTRA 50% OFF</span></h2>
+                                        <a href="#" class="primary-button">Shop Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="swiper-slide">
+                                    <div class="item"><div class="image object-cover"><img src="assets/slider/slider3.jpg" alt=""></div> 
+                                    <div class="text-content flexcol">
+                                        <h4>Best Deals</h4>
+                                        <h2><span>Home Workout Accessories</span><br><span>push the limit</span></h2>
+                                        <a href="#" class="primary-button">Shop Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="brands">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/zara.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/samsung.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/oppo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/asus.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/hurley.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/dng.png" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sectop flexitem">
+                            <h2><span class="circle"></span><span>Trending Products</span></h2>
+                        </div>
+                        <div class="column">
+                            <div class="flexwrap">
+                                <div class="row products big">
+                                    <div class="item">
+                                        <div class="offer">
+                                            <p>Offer ends at</p>
+                                            <ul class="flexcenter">
+                                                <li>1</li>
+                                                <li>15</li>
+                                                <li>27</li>
+                                                <li>60</li>
+                                            </ul>
+                                        </div>
+                                        <div class="media">
+                                            <div class="image"><a href="#"><img src="assets/products/apparel4.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>31%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <h3 class="main-links"><a href="#">Happy Sailed Women's Summer Boho Floral</a></h3>
+                                            <div class="price">
+                                                <span class="current">₹1,200.00</span>
+                                                <span class="normal mini-text">₹1,999.00</span>
+                                            </div>
+                                            <div class="stock mini-text">
+                                                <div class="qty">
+                                                    <span>Stock: <strong class="qty-available">107</strong></span>
+                                                    <span>Sold: <strong class="qty-sold">3,459</strong></span>
+                                                </div>
+                                                <div class="bar">
+                                                    <div class="available"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="row products mini">
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail o"><a href="#"><img src="assets/products/home2.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Home Decor Lightings</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹1,299.00</span>
+                                                <span class="normal mini-text">₹3,299.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail o"><a href="#"><img src="assets/products/shoe2.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Men Slip On Shoes Casual with Arch Support Insoles</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹6,199.00</span>
+                                                <span class="normal mini-text">₹9,999.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                                <p class="stock-danger">Stock: 7 left!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail o"><a href="#"><img src="assets/products/electronic5.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Full HD Smart Tv</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹36,499.00</span>
+                                                <span class="normal mini-text">₹43,599.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail o"><a href="#"><img src="assets/products/apparel6.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Women Fit and Flair Dress</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹1,250.00</span>
+                                                <span class="normal mini-text">₹2,399.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail o"><a href="#"><img src="assets/products/shoe5.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Nike Defy All Day Training Shoes for men</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹5,199.00</span>
+                                                <span class="normal mini-text">₹8,999.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row products mini">
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href="#"><img src="assets/products/apparel3.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3  class="main-links"><a href="#">Black Women's Coat Dress</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹1,200.00</span>
+                                                <span class="normal mini-text">₹1,999.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href="#"><img src="assets/products/home1.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Fancy Light Stand </a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹4,299.00</span>
+                                                <span class="normal mini-text">₹6,999.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href="#"><img src="assets/products/shoe3.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Nike Casuals Shoes for women</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹3,299.00</span>
+                                                <span class="normal mini-text">₹5,999.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href="#"><img src="assets/products/apparel1.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links"><a href="#">Under Armour Men's Tech</a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹5,200.00</span>
+                                                <span class="normal mini-text">₹8,999.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+
+                                        <div class="media">
+                                            <div class="thumbnail object-cover"><a href="#"><img src="assets/products/electronic3.jpg" alt=""></a></div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>32%</span></div>
+                                        </div>
+                                        <div class="content">
+
+                                            <h3 class="main-links">Nirvana Eutopia BlueTooth Headset<a href="#"></a></h3>
+                                            <div class="ratings">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2.548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">₹3,399.00</span>
+                                                <span class="normal mini-text">₹5,599.00</span>
+                                            </div>
+                                            <div class="min-text">
+                                                <p>2975 sold</p>
+                                                <p>Free Shipping</p>
+                                                <p class="stock-danger">Stock: 10 left!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="sectop flexitem">
+                                <h2><span class="circle"></span><span>Featured Products</span></h2>
+                                <div class="second-links">
+                                    <a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="products main flexwrap">
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/apparel1.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Under Armour Men's Tech</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹5,199.00</span>
+                                            <span class="normal mini-text">₹8,999.00</span>
+                                        </div>
+                         
+                                    </div>
+                                </div> 
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/apparel2.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Women Lightweight Knitted Hoodie</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹2,199.00</span>
+                                            <span class="normal mini-text">₹3,599.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Polyster, Cotton</li>
+                                                <li>Oull On Closure</li>
+                                                <li>Fashion Personally</li>
+                                            </ul>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/apparel3.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Black Women Dress Coat</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹1,200.00</span>
+                                            <span class="normal mini-text">₹1,999.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>85% polythene,15% cotton</li>
+                                                <li>Imported</li>
+                                                <li>Machine Wash</li>
+                                            </ul>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/home1.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Fancy Light Stand</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹4,299.00</span>
+                                            <span class="normal mini-text">₹6,999.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Light Weight</li>
+                                                <li>Comfort Ambiance</li>
+                                                <li>Home Decor</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/home2.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">home Decor Lightings</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹1,299.00</span>
+                                            <span class="normal mini-text">₹3,299.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Light Weight</li>
+                                                <li>Comfort Ambiance</li>
+                                                <li>Home Decor</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/home3.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Playwood Wardrobe</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹3,199.00</span>
+                                            <span class="normal mini-text">₹4,999.00</span>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/shoe2.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Men Slip On Shoes Casual with Arch Support Insoles</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹6,199.00</span>
+                                            <span class="normal mini-text">₹9,999.00</span>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/shoe3.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Nike Casual Shoes for Women</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹3,299.00</span>
+                                            <span class="normal mini-text">₹5,999.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Light Weight</li>
+                                                <li>Casual Wear</li>
+                                                <li>Stylish</li>
+                                            </ul>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/shoe5.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Nike Defy All Day Training SHoes for Men</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹5,199.00</span>
+                                            <span class="normal mini-text">₹8,999.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Light Weight</li>
+                                                <li>Comfort swiper-wrapper</li>
+                                                <li>Running Shoes</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/electronic1.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Asus Gaming Laptop</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹63,299.00</span>
+                                            <span class="normal mini-text">₹75,999.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>512GB SSD</li>
+                                                <li>16GB RAM</li>
+                                                <li>Gaming Laptop</li>
+                                            </ul>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/electronic2.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">IPhone 14 Pro</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹53,299.00</span>
+                                            <span class="normal mini-text">₹65,999.00</span>
+                                        </div>
+                                        <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Apple Product</li>
+                                                <li>256GB RAM</li>
+                                                <li>6000mAh</li>
+                                            </ul>
+                                        </div>
+                         
+                                    </div>
+                                </div>
+                                <div class="item">
+                        
+                                    <div class="media">
+                                        <div class="thumbnail object-cover"><a href="#"><img src="assets/products/electronic3.jpg" alt=""></a></div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-eye-line"></i></a></li>
+                                                <li><a href="#"><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>25%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="ratings">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2.548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="#">Nirvana Eutopia Bluetooth Headset</a></h3>
+                                        <div class="price">
+                                            <span class="current">₹3,399.00</span>
+                                            <span class="normal mini-text">₹5,599.00</span>
+                                        </div>
+                                      
+                         
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banners">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="banner flexwrap">
+                                <div class="row">
+                                    <div class="item ">
+                                        <div class="image">
+                                            <img src="assets/banner/banner1.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Brutal Sale!</h4>
+                                            <h3><span>Get the deal now</span><br>Living Room Chair</h3>
+                                            <a href="#" class="primary-button">Shop Now!</a>
+                                        </div>
+                                        <a href="#" class="over-link"></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item get-gray">
+                                        <div class="image">
+                                            <img src="assets/banner/banner2.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Brutal Sale!</h4>
+                                            <h3><span>Discount Everday</span><br>Office Outfit</h3>
+                                            <a href="#" class="primary-button">Shop Now!</a>
+                                        </div>
+                                        <a href="#" class="over-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-categories flexwrap">
+        
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/banner/procat1.jpg" alt="">
+                                        </div>
+                                        <div class="content mini-links">
+                                            <h4><a href="#">Beauty</a></h4>
+                                            <ul class="flexcol">
+                                                <li><a href="#">Makeup</a></li> 
+                                                <li><a href="#">Skin Care</a></li> 
+                                                <li><a href="#">Hair care</a></li> 
+                                                <li><a href="#">Fragrance</a></li> 
+                                                <li><a href="#">Foot & Hand Care</a></li> 
+                                            </ul>
+                                            <div class="second-links"><a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a></div>
+                                            </div>
+                                        </div>
+                                        
+                                </div>
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/banner/procat2.jpg" alt="">
+                                        </div>
+                                        <div class="content mini-links">
+                                            <h4><a href="#">Gadgets</a></h4>
+                                            <ul class="flexcol">
+                                                <li><a href="#">Camera</a></li> 
+                                                <li><a href="#">Cell Phone</a></li> 
+                                                <li><a href="#">Computers</a></li> 
+                                                <li><a href="#">GPS & Navigation</a></li> 
+                                                <li><a href="#">Headphones</a></li> 
+                                            </ul>
+                                            <div class="second-links"><a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a></div>
+                                        </div>
+                                        </div>
+                                        
+                                </div>
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/banner/procat3.jpg" alt="">
+                                        </div>
+                                        <div class="content mini-links">
+                                            <h4><a href="#">Home Decor</a></h4>
+                                            <ul class="flexcol">
+                                                <li><a href="#">Kitchen</a></li> 
+                                                <li><a href="#">Dining Room</a></li> 
+                                                <li><a href="#">Pantry</a></li> 
+                                                <li><a href="#">Great Room</a></li> 
+                                                <li><a href="#">Breakfast Nook</a></li> 
+                                            </ul>
+                                            <div class="second-links"><a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a></div>
+                                        </div>
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer>
+            <div class="newsletter">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="content">
+                                <h3>Join Our Newsletter</h3>
+                                <p>Get e-mail updates about our latest shop and <strong>special offers</strong> </p>
+                            </div>
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="ri-mail-line"></i></span>
+                                <input type="email" placeholder="your email address" required>
+                                <button type="submit">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widgets">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexwrap">
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Help & Contact</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Your Account</a></li>
+                                        <li><a href="#">Your Orders</a></li>
+                                        <li><a href="#">Shipping Rates</a></li>
+                                        <li><a href="#">Returns</a></li>
+                                        <li><a href="#">Assistant</a></li>
+                                        <li><a href="#">Help</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Product Categories</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Beauty</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Women's Fashion</a></li>
+                                        <li><a href="#">Men's Fashion</a></li>
+                                        <li><a href="#">Girl's Fashion</a></li>
+                                        <li><a href="#">Boy's Fashion</a></li>
+                                        <li><a href="#">Health & Household</a></li>
+                                        <li><a href="#">Home & Kitchen</a></li>
+                                        <li><a href="#">Pet Supplies</a></li>
+                                        <li><a href="#">Sports</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Payment Info</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Business card</a></li>
+                                        <li><a href="#">Shop with Points</a></li>
+                                        <li><a href="#">Reload Your Balance</a></li>
+                                        <li><a href="#">Paypal</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>About Us</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Company info</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Investors</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Policies</a></li>
+                                        <li><a href="#">Customer reviews</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexcol">
+                            <div class="logo"><a href="#"><span class="circle"></span></a>.Store</div>
+                            <div class="socials">
+                                <ul class="flexitem">
+                                    <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-linkedin-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-youtube-line"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="mini-text">Copyright 2023 &copy; .Store.  All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-bottom desktop-hide">
+                <div class="container">
+                    <div class="wrapper">
+                        <nav>
+                            <ul class="flexitem">
+                                
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-bar-chart-line"></i>
+                                        <span>Trending</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-user-6-line"></i>
+                                        <span>Account</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-heart-line"></i>
+                                        <span>Wishlist</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="t-search">
+                                        <i class="ri-search-line"></i>
+                                        <span>Search</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        <i class="ri-shopping-cart-line"></i>
+                                        <span>Cart</span>
+                                        <div class="fly-item">
+                                            <span class="item-number">0</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bottom desktop-hide">
+                <div class="container">
+                    <div class="wrapper">
+                        <form action="" class="search">
+                            <a href="#" class="t-close search-close flexcenter"><i class="ri-close-line"></i></a>
+                            <span class="icon-large"><i class="ri-search-line"></i></span>
+                            <input type="search" placeholder="search here" required>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay">
+
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>//copy menu for mobile
+function copyMenu(){
+    //copy inside .dpt-cat to .departments
+    var dptCategory=document.querySelector('.dpt-cat');
+    var dptPlace=document.querySelector('.departments');
+    dptPlace.innerHTML=dptCategory.innerHTML;
+
+    //copy inside nav to nav
+    var mainNav=document.querySelector('.header-nav nav');
+    var navPlace=document.querySelector('.off-canvas nav');
+    navPlace.innerHTML=mainNav.innerHTML;
+
+    //copy .headeer-top .wrapper to .thetop-nav
+    var topNav=document.querySelector('.header-top .wrapper');
+    var topPlace=document.querySelector('.off-canvas .thetop-nav');
+    topPlace.innerHTML=topNav.innerHTML
+}
+
+copyMenu();
+
+//show mobile menu
+const menuButton=document.querySelector('.trigger'),
+    closeButton=document.querySelector('.t-close'),
+    addClass=document.querySelector('.site');
+
+menuButton.addEventListener('click',function(){
+    addClass.classList.toggle('showmenu');
+})
+closeButton.addEventListener('click',function(){
+    addClass.classList.remove('showmenu');
+})
+
+
+
+//show sub menu on mobile
+
+
+const subMenu = document.querySelectorAll('.has-child .icon-small');
+subMenu.forEach((menu) => menu.addEventListener('click', toggle));
+
+function toggle(e) {
+    e.preventDefault();
+    subMenu.forEach((item) => item != this ? item.closest('.has-child').classList.remove('expand') : null);
+    if (!this.closest('.has-child').classList.contains('expand')) 
+        this.closest('.has-child').classList.toggle('expand');
+}
+
+//slider
+
+const swiper = new Swiper('.swiper', {
+
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+
+  });
+
+//   show search 
+
+const searchButton = document.querySelector('.t-search'),
+    tClose= document.querySelector('.search-close'),
+    showClass = document.querySelector('.site');
+searchButton.addEventListener('click',function(){
+    showClass.classList.toggle('showsearch')
+})
+tClose.addEventListener('click',function(){
+    showClass.classList.remove('showsearch')
+})
+
+
+//show dpt menu
+const dptButton = document.querySelector('.dpt-cat .dpt-trigger'),
+    dptClass=document.querySelector('.site');
+dptButton.addEventListener('click',function(){
+    dptClass.classList.toggle('showdpt')
+})
+
+//product image slider 
+
+var productThumb = new Swiper('.small-image', {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 3,
+    freeMode: true,
+    watchSlidesProgress: true,
+    breakpoints: {
+        481: {
+            spaceBetween: 32,
+        }
+    }
+
+});
+
+var productBig = new Swiper('.big-image', {
+    loop: true,
+    autoHeight: true,
+    navigation: {
+        nexEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+        swiper: productThumb,
+    },
+});
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secondary-color:#794afa;
+    --secondary-dark-color:#453C5C;
+
+
+    --white-color:#fff;
+    --light-bg-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --border-color:#e5e8ec;
+    --dark-color:#0a021c;
+
+    --font-small:13px;
+    --font-smaller:11px;
+
+    --percent100:100%;
+    --percent50:50%;
+
+    --fw3:300;
+    --fw5:500;
+    --fw6:600;
+    --fw7:700;
+    --fw8:800;
+
+    --trans-background-color:background-color .3s color .3s;
+    --trans-background:background-color .3s;
+    --trans-color::color .3s;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--dark-color);
+    background-color: var(--white-color);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: var(--percent100);
+    vertical-align: middle;
+}
+
+strong{
+    font-weight: var(--fw8);
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input::placeholder{
+    font: inherit;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Poppins';
+}
+
+h1{
+    font-size: calc(1.3em+1vw);
+    font-weight: var(--fw8);
+    line-height: 1;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: var(--fw7);
+}
+
+h4{
+    font-size: 1em;
+    font-weight: var(--fw6);
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0.938em;
+}
+
+.column{
+    margin-left: -0.938em;
+    margin-right: -0.938em;
+}
+
+.column .row{
+    padding: 0 0.938em;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexitem{
+    display: flex;
+    align-items: center;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-links a:hover{
+    color: var(--secondary-color);
+}
+
+.second-links a:hover{
+    color: var(--light-text-color);
+}
+
+.icon-small, .icon-large{
+    display: flex;
+    align-items: center;
+    padding: 0 0.25em;
+    font-weight: normal;
+}
+
+.icon-small{
+    font-size: 1.25em;
+    margin-left: auto;
+}
+
+.icon-large{
+    font-size: 1.75em;
+    padding: 0 0.75em 0 0;
+}
+
+.mobile-hide{
+    display: none;
+}
+
+.object-cover img{
+    position: absolute;
+    object-fit: cover;
+    width: var(--percent100);
+    height:var(--percent100) ;
+    display: block;
+}
+
+.products .media{
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.primary-button , .secondary-button, .light-button{
+    font-size: var(--font-small);
+    padding: 0.9em 2em;
+    height: auto;
+    width: fit-content;
+    border-radius: 2em;
+    transform: var(--trans-background-color);
+}
+
+.primary-button{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.primary-button:hover{
+    background-color: var(--secondary-dark-color);
+}
+
+.secondary-button{
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+}
+
+.secondary-button:hover{
+    background-color: var(--light-bg-color);
+    color: var(--secondary-dark-color);
+}
+
+.light-button{
+    background-color: var(--light-bg-color);
+    
+}
+
+.light-button:hover{
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+}
+
+.view-all{
+    font-size: var(--font-small);
+    display: flex;
+    gap: 1em;
+    transition: var(--trans-color);
+}
+
+.mini-text{
+    font-size: var(--font-smaller);
+    color: var(--light-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+:where(.off-canvas,header) li>a{
+    display: flex;
+    position: relative;
+    line-height: inherit;
+    transition: var(--trans-color);
+}
+
+.header-top .wrapper{
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    justify-content: space-between;
+    line-height: 42px;
+}
+
+.header-top .wrapper ul{
+    gap: 2em;
+}
+
+.header-top li{
+    position: relative;
+}
+
+.header-top ul ul{
+    position: absolute;
+    left: -1em;
+    line-height: 2em;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    z-index: 1;
+    display: none;
+}
+
+:where(.header-top,.thetop-nav)  .right ul ul li a{
+    padding: 0.25em 1em;
+}
+
+:where(.header-top,.thetop-nav) .right ul ul li.current a{
+    background-color: var(--border-color);
+}
+
+.header-top li:hover ul{
+    display: block;
+}
+
+.header-nav{
+    padding: 0.75em 0;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.trigger {
+   font-size: 1.5em;
+   display: flex; 
+   padding: 0.25em;
+   margin-right: 0.5em;
+}
+
+.logo a {
+    font-family: 'Poppins';
+    font-size: 1.75em;
+    position: relative;
+    font-weight: var(--fw8);
+    display: flex;
+    padding-left: 0.75em;
+    margin-right: 4em;
+}
+
+.circle{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: var(--percent50);
+    background-color: var(--light-bg-color);
+    z-index: -1;
+}
+
+.circle::before{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height:28px ;
+    border-radius: var(--percent50);
+    background-color: var(--secondary-color);
+    bottom: 5px;
+    right: 5px;
+    opacity: .4;
+}
+
+.header-nav nav >ul{
+    line-height: 100px;
+    gap: 2em;
+}
+
+.fly-item{
+    position: absolute;
+    height: 16px;
+    font-size: var(--font-smaller);
+    padding: 3px;
+    text-align: center;
+    line-height: 10px;
+    color: var(--white-color);
+}
+
+nav .fly-item{
+    top: 50%;
+    margin-top: -24px;
+    width: 30px;
+    border-radius: 3px;
+    right: -32px;
+    background-color: var(--primary-color);
+}
+
+.header-nav .right{
+    position: relative;
+    margin-left: auto;
+}
+
+.header-nav .right .icon-large{
+    position: relative;
+}
+
+.header-nav .right .fly-item {
+    top: 0;
+    right: 16px;
+    width: 16px;
+    background-color: var(--secondary-dark-color);
+    border-radius: var(--percent50);
+
+}
+
+.mega .flexcol{
+    flex: 1;
+    min-width: 100px;
+    padding-right: 2.5em;
+    margin-bottom: 1.5em;
+    z-index: 1;
+}
+
+.header-main{
+    background-color: var(--secondary-dark-color);
+    padding: 1.5em 0;
+    margin-bottom: 2em;
+}
+
+.dpt-cat{
+    position: relative;
+    z-index: 10;
+}
+
+.dpt-cat .dpt-head{
+    position: relative;
+    width: 300px;
+    padding: 0.75em 1.5em;
+    background-color: var(--primary-color);
+    border-radius: 7px 7px 0 0;
+    color: var(--white-color);
+    margin-bottom: -2.15em;
+}
+
+.dpt-cat .dpt-head .mini-text{
+    color: var(--light-bg-color);
+}
+
+.dpt-cat .dpt-trigger{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1.3em;
+    height: 60px;
+    width: 60px;
+}
+
+.dpt-menu >ul >li >a{
+    font-size: var(--font-small);
+    height: 46px;
+    align-items: center;
+}
+
+
+.dpt-menu .has-child:hover ul{
+    display: block;
+}
+
+.dpt-menu .has-child li a:hover{
+    text-decoration: underline;
+}
+.header-main .right{
+    flex: 1;
+}
+
+form{
+    position: relative;
+}
+
+form.search input{
+    line-height: 3.25em;
+    padding: 0 7em 0 4.5em;
+    border:0 ;
+    outline: 0;
+    width: var(--percent100);
+    border-radius: 7px;
+    font-size: 0.9em;
+    font-weight: var(--fw3);
+} 
+
+form.search :where(span,button){
+    position: absolute;
+    top: 0;
+    padding: 0.55em 1.5em;
+    font-size: 1em;
+    color: var(--light-text-color);
+    height: var(--percent100);
+}
+
+form.search button{
+    right: 0;
+    border: 0;
+    outline: 0;
+    font-size: 0.875em;
+    font-weight: var(--fw6);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+    transition: var(--trans-background);
+}
+
+form.search button:hover{
+    background-color: var(--dark-color);
+}
+
+/* responsive menu off canvas  */
+.site-off{
+    position: fixed;
+    width: 320px;
+    height: var(--percent100);
+    background-color: var(--white-color);
+    overflow-y: auto;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform .4s visibility .4s;
+    will-change: transform,visibility;
+}
+
+.showmenu .site-off{
+    transform: translateX(0);
+    visibility: visible;
+    transform: transform .4s 0s, visibility 0s 0s;
+}
+
+.off-canvas{
+    width: var(--percent100);
+    height: var(--percent100);
+    touch-action: auto;
+    padding: 1.5em;
+}
+
+.off-canvas .canvas-head{
+    color: var(--white-color);
+    justify-content: space-between;
+    padding: 1.5em;
+    margin: -1.5em -1.5em 1.5em;
+    background-color: var(--secondary-dark-color);
+    border-bottom-right-radius: 160px 25px;
+}
+
+.off-canvas .canvas-head .logo{
+    z-index: 10;
+    position: relative;
+}
+
+.off-canvas .canvas-head .logo .circle{
+    opacity: .75;
+}
+
+.t-close{
+    font-size: 1.25em;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--percent50);
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+    transition: var(--trans-background-color);
+
+}
+
+.t-close:hover{
+    background-color: var(--white-color);
+    color: var(--secondary-dark-color);
+    opacity: .75;
+}
+
+.off-canvas .dpt-head{
+    font-size: var(--font-small);
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: var(--light-bg-color);
+    border-radius: 7px 7px 0 0;
+}
+
+
+.off-canvas .has-child>:where(ul,.mega){
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    line-height: 28px;
+    padding-left: 3em;
+
+
+    height: auto;
+    max-height: 0;
+    overflow:hidden ;
+    transition: max-height .3s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+
+.off-canvas .expand > :where(ul, .mega){
+    max-height: 2000px;
+} 
+
+.off-canvas .thetop-nav ul, .off-canvas nav >ul{
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: var(--font-small);
+    line-height: 36px;
+    padding-top: 1.25em;
+    margin:1.25em 0 ;
+    border-top: 1px solid var(--border-color);
+}
+.off-canvas nav .mega{
+    padding: 0;
+}
+
+.off-canvas nav .mega .products{
+    display: none;
+}
+
+.off-canvas .has-child .icon-small{
+    padding: 0.5em;
+    line-height: initial;
+}
+
+.off-canvas .dpt-menu .icon-small i{
+    transform: rotate(90deg);
+}
+
+.off-canvas .has-child{
+    width: var(--percent100);
+}
+
+.off-canvas .thetop-nav .right >ul > :where(:nth-child(4),li:nth-child(5))>a{
+    display: none;
+}
+
+.off-canvas .thetop-nav .right ul ul{
+    display: flex;
+   
+    flex-direction: row;
+}
+
+.off-canvas .thetop-nav .right ul ul li a{
+    padding: 0.5em;
+    border: 1px solid var(--border-color);
+    line-height: 16px;
+    margin: 0 0.5em 0.5em 0;
+}
+
+/* slider  */
+.slider > div > .wrapper {
+    width: calc(100% - (300px + 2em));
+    margin-left: auto;
+}
+
+
+.slider .item{
+    position: relative;
+    height: 474px;
+}
+
+.slider .item::before{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 450px;
+    height: 300px;
+    background-color: var(--white-color);
+    z-index: 1;
+    filter: blur(50px);
+    opacity: 0.8; 
+}
+
+.slider .text-content{
+    position: relative;
+    height: var(--percent100);
+    justify-content: flex-end;
+    padding: 0 0 10% 10%;
+    z-index: 1;
+}
+
+.slider h4{
+    font-size: var(--font-small);
+    font-weight: var(--fw7);
+    width: fit-content;
+    padding: 4px 10px;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border-radius: 4px;
+}
+
+.text-content :where(h2,h3) span:first-child{
+    font-family: var(--fw3);
+    color: var(--light-text-color);
+}
+
+.text-content :where(h2,h3) span:last-child{
+    color: var(--secondary-dark-color);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+    background-color: var(--secondary-dark-color);
+}
+
+/* brands  */
+.brands .wrapper{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+
+.brands .item img{
+    opacity: .25;
+    transition: opacity .3s;
+}
+
+.brands .item a:hover img{
+    opacity: 1;
+}
+
+/* products block style  */
+.sectop{
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sectop h2{
+    position: relative;
+    font-size: 1.5em;
+    font-weight: var(--fw7);
+
+}
+
+.sectop h2 span:not(.circle){
+    padding: 0 0 0 2em;
+}
+
+.sectop h2 .circle{
+    top: -5px ;
+}
+
+
+
+
+
+/* product  */
+.products .offer{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.products .offer p{
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.products .offer ul{
+    gap: 1em;
+}
+
+.products .offer ul li{
+    position: relative;
+    width: 34px;
+    height: 34px;
+    padding: 0.5em;
+    line-height: initial;
+    color: var(--secondary-dark-color);
+    background-color: var(--light-bg-color);
+    border-radius: 5px;
+}
+
+.products .offer ul li:not(:last-child)::before{
+    content: ':';
+    position: absolute;
+    right: -0.6em;
+    color: var(--light-text-color);
+}
+
+.products:where(.image , .thumbnail) img{
+    transition: transform .3s;
+}
+
+.products :where(.image,.thumbnail):hover img{
+    transform: scale(1.1);
+}
+
+.products .hoverable{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.products .hoverable li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    padding: 0.25em;
+    margin: 0.25em;
+    border-radius: var(--percent50);
+    line-height: 1;
+    background-color: var(--white-color);
+    opacity: .5;
+    transition: var(--trans-background-color),opacity .3s;
+}
+
+.products .item:hover .hoverable li a{
+    opacity: 1;
+}
+
+.products .hoverable li a:hover{
+    color: var(--white-color);
+    background-color: var(--dark-color);
+}
+
+.products .hoverable li.active a:hover{
+    background-color: var(--primary-color);
+}
+
+.products .hoverable li:not(.active){
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform .3s, opacity .2s;
+
+}
+
+.products .item:hover .hoverable li{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.products .hoverable li:last-child{
+    transition-delay: .1s;
+}
+
+.products .discount{
+    top: auto;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.products .discount::before{
+    background-color: var(--dark-color);
+}
+
+.products .discount span{
+    position: relative;
+    font-family: var(--font-smaller);
+    font-weight: var(--fw5);
+    color: var(--white-color);
+}
+
+.products .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.products:where(.big,.main, .one) .content{
+    gap: 1em;
+    margin-top: 1.25em;
+}
+
+.products .ratings{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.products .ratings .stars{
+    width: 80px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16' fill='rgba(240,187,64,1)'%3E%3Cpath d='M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z'%3E%3C/path%3E%3C/svg%3E");
+    background-position-y:top;
+    background-repeat-y: no-repeat;
+
+}
+
+.products .item:where(:nth-child(3),:nth-child(3),.stars){
+    width: 64px;
+}
+.products h3{
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-weight: var(--fw7);
+    font-size: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.products h3 a:hover{
+    text-decoration: underline;
+}
+
+.products .price .current{
+    font-size: calc(1em + 1vw);
+    color: var(--primary-color);
+    margin-right:0.25em ;
+}
+
+.products .price .normal{
+    color: var(--light-text-color);
+    text-decoration: line-through;
+}
+
+.products .stock .qty{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .stock .bar{
+    height: 3px;
+    margin-top: 1em;
+    background-color: var(--border-color);
+    overflow: hidden;
+}
+
+.products .stock .available{
+    height: 3px;
+    width: 21%;
+    background-color: var(--secondary-color);
+}
+
+.products .item{
+    display: flex;
+    position: relative;
+}
+.products .content h3{
+    font-weight: var(--fw6);
+}
+
+.products .stock-danger{
+    color: var(--primary-color);
+}
+
+.flexwrap .row{
+    flex: 0 0 100%;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+
+
+.products.big .item{
+    flex-direction: column;
+    padding: 2.5em;
+    border: 2px solid var(--secondary-dark-color);
+    border-radius: 7px;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.products.mini .item{
+    margin-bottom: 2em;
+}
+
+.products.mini .media{
+    width: 130px;
+    height: 160px;
+    margin-right: 1.25em;
+}
+
+.products.mini .content{
+    margin: 0;
+    gap: 0.75em;
+}
+
+.products:where(.mini,.main) h3{
+    font-weight: 400;
+}
+
+.products.main .item{
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 0 0.938em;
+    padding-bottom: 2em;
+}
+
+.products.main .media{
+    height: 390px;
+}
+
+.products.main .footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 1em 1em;
+    border-radius: 7px;
+    z-index: 1;
+    opacity: 0;
+    background: linear-gradient(0deg, var(--light-bg-color) 0%, var(--white-color) 70%);
+    visibility: hidden;
+    will-change: opacity;
+    transition: all .2s ease-in-out;
+}
+.products.main .item:hover .footer{
+    opacity: 1;
+    visibility: visible;
+}
+.products.main .footer ul{
+    list-style: disc;
+    padding: 1.25em 0 0 1.25em;
+    line-height: 1.8;
+    border-top: 1px solid var(--border-color);
+    margin-top: 145px;
+}
+
+.products.main .item:hover .content > *:not(.footer){
+    z-index: 3;
+}
+
+
+/* banner  */
+.banners .item{
+    position: relative;
+    border-color: var(--white-color);
+    border: 1px solid var(--border-color);
+}
+
+.banner .image{
+    text-align: right;
+}
+
+.banner .get-gray{
+    background-color: var(--border-color);
+}
+
+.banner :where(.text-content, .over-link){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--percent100);
+    height: var(--percent100);
+}
+
+.banner .text-content{
+    padding: 1.5em 2.5em;
+}
+
+.banner h3{
+    font-size: calc(1em + 0.5vw);
+    font-weight: var(--fw3);
+}
+
+.banner h3 span{
+    font-size: 80%;
+}
+
+.banner .primary-button{
+    z-index: 3;
+}
+
+.banners .product-categories .item{
+    display: flex;
+    padding: 1.5em;
+}
+
+.banners .product-categories .image{
+    max-width: 150px;
+}
+
+.mini-links ul{
+    font-size: var(--font-small);
+    color: var(--light-text-color);
+    margin-top: 1em;
+}
+
+.banners .second-links{
+    margin-top: 2em;
+}
+
+.mini-links li a:hover{
+    text-decoration: underline;
+}
+
+
+/* footer  */
+.newsletter{
+    padding: 2.5em 0;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.newsletter h3{
+    font-size: 1.5em;
+}
+
+.newsletter p{
+    font-weight: var(--fw3);
+    color: var(--border-color);
+    margin: 0.5em 0 1.5em;
+}
+
+.newsletter p strong{
+    color: var(--primary-color);
+}
+
+.newsletter form{
+    max-width: 500px;
+    width: var(--percent100);
+}
+
+.widgets{
+    padding: 3.5em 2.5em;
+    background-color: var(--light-bg-color);
+}
+
+.footer-info{
+    padding: 3.5em 0 2.5em;
+}
+
+.footer-info .wrapper .flexcol{
+    align-items: center;
+    gap: 0;
+}
+
+.footer-info ul li a{
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-bg-color);
+    margin: 0.25em;
+    transition: var(--trans-background);
+}
+
+.footer-info ul li a:hover{
+    background-color: var(--border-color);
+}
+
+.footer-info .logo a{
+    margin: 0 0 1em .025em;
+
+}
+
+.footer-info .mini-text{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.menu-bottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: var(--white-color);
+    box-shadow: 0 -2px 10px rgba(0 0 0 / 10%);
+}
+
+.menu-bottom nav li{
+    flex: 1;
+}
+
+.menu-bottom nav li a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 0;
+    color: var(--light-text-color);
+    transition: var(--trans-color);
+}
+
+.menu-bottom nav li a:hover{
+    color: var(--dark-color);
+}
+
+.menu-bottom nav li a span{
+    font-size: var(--font-smaller);
+}
+
+.menu-bottom nav li a i{
+    font-size: 1.25em;
+}
+
+.menu-bottom .fly-item{
+    right: 50%;
+    width: 16px;
+    border-radius: var(--percent50);
+    margin-right: -20px;
+    background-color: var(--secondary-dark-color);
+}
+
+
+.search-bottom {
+    position: fixed;
+    bottom: 60px;
+    width: var(--percent100);
+    padding: 2.5em 0;
+    background-color: var(--secondary-dark-color);
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    will-change: visibility,opacity;
+}
+
+.showsearch .search-bottom{
+    visibility: inherit;
+    opacity: 1;
+}
+
+.search-bottom .t-close{
+    position: absolute;
+    top: -54px;
+    right: 0;
+}
+
+.search-bottom .t-close:hover{
+    background-color: var(--primary-color);
+}
+
+.overlay{
+    position: fixed;
+    width: var(--percent100);
+    height: var(--percent100);
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.4);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showmenu .overlay{
+    visibility: inherit;
+    opacity: 1;
+    
+    
+}
+
+/* page single  */
+.page-home .dpt-cat .dpt-trigger,
+ .dpt-trigger .ri-close-line,
+ .showdpt .dpt-trigger .ri-menu-3-line {
+    display: none;
+}
+.showdpt .dpt-trigger .ri-close-line{
+    display: block;
+}
+
+/* breadcrumb  */
+.breadcrumb{
+    font-size: var(--font-small);
+    margin-bottom: 2em;
+}
+
+.breadcrumb li:not(:last-child)::after{
+    content: '/';
+    padding: 0 0.35em;
+}
+
+.breadcrumb li:last-child{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--light-text-color);
+}
+
+.products.one .item{
+    flex-direction: column;
+}
+
+.products.one .price .discount{
+    font-size: 1em;
+    font-weight: var(--fw7);
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    padding: 1em;
+    z-index: 2;
+    background-color: var(--dark-color);
+    color:var(--white-color);
+    border-radius: var(--percent50);
+    margin: 0.5em;
+}
+
+.products.one :where(.big-image, .small-image){
+    overflow: hidden;
+}
+
+.products.one .big-image{
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.products.one:where(.big-image,.small-image) img{
+    object-fit: cover;
+    width: var(--percent100);
+    height: var(--percent100);
+    display: block;
+}
+
+.products.one .thumbnail-show{
+    position: relative;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    margin: 0 2em 2em 0;
+}
+
+.products :is(.swiper-buttonn-next, .swiper-button-prev){
+    outline: 0;
+    color: var(--secondary-dark-color);
+    transition: var(--trans-background), transform .3s;
+}
+
+.products .big-image:hover .swiper-button-next{
+    transform: translateX(10px);
+}
+
+.products .big-image:hover .swiper-button-prev{
+    transform: translateX(-10px);
+}
+
+.products :is(.swiper-buttonn-next, .swiper-button-prev)::after{
+    font-size: 1.5em;
+}
+
+.products .big-image:hover :is(.swiper-buttonn-next, .swiper-button-prev){
+    background-color: var(--light-bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:481px) {
+    .products.main .item{
+        flex: 0 0 50%;
+    }
+
+    /* page detail  */
+    .products.one .big-image{
+        margin-bottom: 2em;
+    }
+
+    .products.one .image-show img{
+        height: 680px;
+    }
+    .products.one .thumbnail-show{
+        height: 160px;
+        
+        
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .products .price .current{
+        font-size: 1.25em;
+    }
+
+    .products.mini ,.banner .row,.widgets .row{
+        flex: 0 0 50%;
+    }
+    .products.main .item{
+        flex: 0 0 33.333%;
+    }
+    .products.one .row{
+        flex: 0 0 50%;
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width:992px){
+    .container{
+        padding: 0 2em;
+    }
+    .desktop-hide{
+        display: none;
+    }
+
+    .mobile-hide{
+        display: block;
+    }
+    .logo a{
+        margin-right: 2em;
+    }
+
+    .header-nav{
+        padding: 0;
+        margin: 0;
+        border-bottom: 0;
+    }
+
+    .header-nav .right li>a{
+        margin-left: 1em;
+    }
+
+    nav .mega{
+        position: absolute;
+        width: var(--percent100);
+        height: auto;
+        top: auto;
+        left: 0;
+        right: 0;
+        padding: 2.5em;
+        line-height: 2em;
+        background-color: var(--light-bg-color);
+        box-shadow: rgb(0 0 0 / 20%) 0 30px 20px -30px;
+        z-index: 100;
+        display: none;
+    }
+
+    nav li.has-child:hover .mega{
+        display: block;
+    }
+
+    nav .mega .wrapper{
+        display: flex;
+    }
+
+    nav .mega h4{
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+
+    nav .mega ul{
+        font-size: var(--font-small);
+    }
+
+    nav .mega .women-brands{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100px;
+    }
+
+    nav .mega .women-brands li{
+        min-width: 80px;
+    }
+
+    nav .mega .view-all{
+        margin-top: 1em;
+    }
+
+    nav .mega .products{
+        flex: 2;
+        padding: 0;
+        align-items: center;
+        position: relative;
+    }
+
+    nav .mega .products .row{
+        width: var(--percent100);
+    }
+
+    nav .mega .products .media{
+        height: 400px;
+    } 
+    
+    nav .mega .products .text-content{
+        line-height: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        margin-top: 0.5em;
+        position: absolute;
+        bottom: 4em;
+        width: var(--percent100);
+    }
+
+    nav .mega .products .text-content h4{
+        font-size: 2em;
+        font-weight: var(--fw8);
+        text-align: center;
+        color:var(--secondary-dark-color);
+    }
+
+    .header-main .right{
+        max-width: 600px;
+        margin-left: auto;
+    }
+
+    .dpt-menu{
+        position: absolute;
+        top: var(--percent100);
+        width: 300px;
+        background-color: var(--white-color);
+        border: 1px sold var(--border-color);
+        border-top: 0;
+        border-radius: 0;
+    }
+
+    .dpt-menu>ul>li>a{
+        font-weight: var(--fw5);
+        padding: 0 1.5em;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .dpt-menu .has-child >ul, .dpt-menu .mega{
+        position: absolute;
+        top: 0;
+        left: var(--percent100);
+        width: var(--percent100);
+        height: auto;
+        min-height: var(--percent100);
+        padding: 1.5em;
+        font-size: var(--font-small);
+        line-height: 2.5em;
+        border: 1px solid var(--border-color);
+        border-top: 0;
+        display: none;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    /* show 1st sub menu  */
+    .dpt-menu .has-child>ul{
+        display:none;
+    }
+
+    .dpt-menu .beauty ul{
+        background-image: url(assets/menu/menu_bg1.jpg);
+    }
+
+    .dpt-menu .electronics ul{
+        background-image: url(assets/menu/menu_bg2.jpg);
+    }
+
+    .dpt-menu .fashion ul{
+        background-image: url(assets/menu/menu_bg3.jpg);
+    }
+
+    .dpt-menu .homekit .mega{
+        background-image: url(assets/menu/menu_bg4.jpg);
+    }
+
+    .dpt-menu .has-child> :where(ul,.mega)::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(90deg, rgba(225,225,225,1) 0%,rgba(0,0,0,0.1) 0%);
+    }
+
+    .dpt-menu .mega{
+        width: 800px;
+        min-width: var(--percent100);
+        
+    }
+
+    .dpt-menu .has-child:hover .mega{
+        display: flex;
+    }
+
+    /* slider */
+    .slider > div > .wrapper {
+        width: calc(100% - (300px + 2em));
+        margin-left: auto;
+    }
+    
+    /* products  */
+    .trending .products, .product-categories .row{
+        flex: 0 0 33.333%;
+    }
+
+    .products.big .media{
+        max-height: 373px;
+    }
+
+    .products.main .item,.widgets .row{
+        flex: 0 0 25%;
+    }
+
+    .newsletter .box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* page single  */
+    #page:not(.page-home) .dpt-menu{
+        display: none;
+    }
+
+    #page.showdpt .dpt-menu{
+        display: block;
+    }
+}
